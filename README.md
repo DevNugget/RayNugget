@@ -7,6 +7,7 @@ RayLib framework by DevNugget
 [DONE] Basic Movement  
 [TODO] Collisions  
 [TODO] Animations  
+[TODO] etc...  
 
 # Be part of RayNugget
 Any sort of contributions are aprreciated
