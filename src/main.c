@@ -23,6 +23,10 @@ int main(void)
 
     //-----------------------------------
 
+    // Loading --------------------------
+    Texture2D player = LoadTexture("textures/playerSprite.png");
+    //-----------------------------------
+
     // Main Game Loop -------------------
     while (!WindowShouldClose())
     {
@@ -42,13 +46,15 @@ int main(void)
             DrawText("RayNugget", screenHeight/2, screenWidth/2, 30, LIGHTGRAY);
             DrawText("Movement Test", 10, 10, 30, LIGHTGRAY);
 
-            DrawCircleV(playerPosition, 50, RED);
+            DrawTextureV(player, playerPosition, WHITE);
 
         EndDrawing();
 
     } //---------------------------------
 
     // De-Initialization
+    UnloadTexture(player);
+
     CloseWindow();
 
     return 0;
