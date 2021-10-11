@@ -2,7 +2,7 @@
 RayLib framework by DevNugget
 
 # Progress List
-[DONE] Applicable Game Window
+[DONE] Applicable Game Window\n
 [DONE] Texture Rendering
 [DONE] Basic Movement
 [TODO] Collisions
